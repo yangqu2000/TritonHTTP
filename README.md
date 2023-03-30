@@ -52,16 +52,6 @@ When to update the timeout?
 What is the timeout value?
 - 5 seconds.
 
-## Implementation
-
-Please limit your implimentation to the following files, because we'll only copy over these files for grading:
-- `tritonhttp/`
-  - `request.go`
-  - `response.go`
-  - `server.go`
-
-There are some utility functions defined in `tritonhttp/util.go` that you might find useful.
-
 ## Usage
 
 The source code for tools needed to interact with TritonHTTP can be found in `cmd`. The following commands can be used to launch these tools:
@@ -71,12 +61,3 @@ The source code for tools needed to interact with TritonHTTP can be found in `cm
 2) `make gohttpd` - Starts up Go's inbuilt web-server.
 
 3) `make tritonhttpd`  - Starts up your implementation of TritonHTTP
-
-## Submission
-
-Either submit through GitHub, or:
-```
-make submission
-```
-
-And upload the generated `submission.zip` file to Gradescope.
